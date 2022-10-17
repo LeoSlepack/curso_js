@@ -6,3 +6,7 @@ console.log(`esse tambem`)
 console.log(typeof 'isso é uma string');
 console.log(typeof "esse texto tambem é");
 console.log(typeof `esse tambem`)
+
+console.log("Essa é uma string \n De duas linhas");
+console.log(`A soma de 2 + 2 é ${2+2}`);
+console.log("salada " + "de " + "fruta");
