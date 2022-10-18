@@ -22,3 +22,11 @@ console.log(laranjas);
 let um = 1, dois = 2, tres = 3;
 
 console.log(um + dois + tres);
+
+var sobrenome = "Slepack";
+
+console.log(sobrenome);
+
+const terceironome = "Maia";
+
+console.log(terceironome);
