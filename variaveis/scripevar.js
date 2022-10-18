@@ -30,3 +30,12 @@ console.log(sobrenome);
 const terceironome = "Maia";
 
 console.log(terceironome);
+
+let nome1 = "Leo";
+let nome2 = "Leticia";
+let nome3 = "Eduardo";
+
+console.log(nome1);
+console.log(nome2);
+console.log(nome3);
+
