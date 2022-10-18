@@ -89,3 +89,30 @@ console.log(mais(1,2));
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
+/*    EXERCICIOS   */
+/*   1   */
+
+function imprimirHelllo () {
+    console.log("Olá Mundo!");
+};
+
+imprimirHelllo();
+
+/*     2   */
+
+function recebaIdade(idade) {
+    console.log("A sua idade é de " + idade + "anos")
+};
+
+recebaIdade(23);
+
+/*    3    */
+
+function somando (num1,num2) {
+    return num1 + num2; 
+};
+
+console.log(somando(10,10));
+
+
+
