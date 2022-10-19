@@ -8,9 +8,18 @@ console.log(arr);
 console.log(nomes);
 console.log(bool);
 console.log(misturado);
-*/
+
 
 console.log(arr[4]);
 console.log(nomes[0]);
 console.log(bool[2]);
 console.log(misturado[misturado.length -1]);
+*/
+
+let marca = 'Nike';
+
+console.log(marca.toUpperCase());
+
+let marca2 = 'Nike';
+
+console.log(marca2.toLowerCase());
