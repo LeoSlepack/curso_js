@@ -35,3 +35,27 @@ dog.setRaca('Pastor Alemão');
 console.log(dog.raca);
 
 console.log(dog.getRaca());
+
+const person = {
+    maos: 2,
+}
+
+console.log(Object.getPrototypeOf(person));
+
+let gato = {
+    patas: 4,
+    raca: 'SRD',
+    miar: function() {
+        console.log("Miauuuu");
+    }
+}
+
+
+let nina = Object.create(gato);
+
+nina.miar();
+
+nina.raca = "vira-lata";
+
+console.log(nina.raca);
+console.log(gato.raca);
