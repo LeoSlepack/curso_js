@@ -82,6 +82,66 @@ function Passarinho (raca, patas, cor) {
 }
 
 let sabia = new Passarinho('Sabia', 2, 'Marrom');
+
 console.log(sabia);
+
 sabia.cantar(); 
 
+// Get an Set
+class Jacare {
+    constructor(raca, cor) {
+        this.raca = raca;
+        this.cor = cor;
+    }
+
+    abriraBoca() {
+        console.log("<");
+    }
+
+    get getCor() {
+        return this.cor;
+    }
+
+    set setCor(cor) {
+        this.cor = cor;
+    }
+
+}
+
+let arigator = new Jacare('Arigator', 'Verde');
+
+console.log(arigator);
+
+arigator.setCor = 'Marrom';
+
+console.log(arigator.getCor);
+
+// Herança
+class Mamifero {
+    constructor(patas) {
+        this.patas = patas;
+    }
+}
+
+let coiote = new Mamifero(4);
+
+console.log(coiote.patas);
+
+class Lobo extends Mamifero {
+    constructor(patas, raca) {
+        super(patas, patas);
+        this.raca = raca;
+    }
+
+    uivar () {
+        console.log("Auuuuuuuuuuu");
+    }
+}
+
+let guara = new Lobo(4, "guara");
+
+console.log(guara.patas);
+
+console.log(guara.raca);
+
+guara.uivar();
