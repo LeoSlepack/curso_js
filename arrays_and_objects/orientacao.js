@@ -59,3 +59,29 @@ nina.raca = "vira-lata";
 
 console.log(nina.raca);
 console.log(gato.raca);
+
+function criarCachorro (raca, patas, cor) {
+    let cachorro = Object.create({});
+    cachorro.raca = raca;
+    cachorro.patas = patas;
+    cachorro.cor = cor;
+    return cachorro;
+}
+
+let doberman = criarCachorro('Doberman', 4, 'preta');
+
+console.log(doberman);
+
+function Passarinho (raca, patas, cor) {
+    this.raca = raca;
+    this.patas = patas;
+    this.cor = cor;
+    this.cantar = function() {
+        console.log("FI FI FIU");
+    }
+}
+
+let sabia = new Passarinho('Sabia', 2, 'Marrom');
+console.log(sabia);
+sabia.cantar(); 
+
