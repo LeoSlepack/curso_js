@@ -145,3 +145,7 @@ console.log(guara.patas);
 console.log(guara.raca);
 
 guara.uivar();
+
+console.log(new Lobo instanceof Mamifero);
+
+console.log(guara instanceof Mamifero);
