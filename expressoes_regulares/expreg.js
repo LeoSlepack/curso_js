@@ -94,10 +94,18 @@ console.log(validarDominio.test("www.teste"));
 console.log(validarDominio.test("teste.com"));
 console.log(validarDominio.test("www.octolegal.com"));
 
-//Regex validando data de nascimento
+//Regex validando email
 let validarEmail = /\w+@\w+\.\w+/;
 
 console.log(validarEmail.test("teste@gmail.com"));
 console.log(validarEmail.test("teste@gmail"));
 console.log(validarEmail.test("gmail.com"));
 console.log(validarEmail.test("testwbdhjwebvfhje@gmail.com"));
+
+//Regex validando data de nscimento
+let validarDataNasc = /^[0-9]{2}[/][0-9]{2}[/][0-9]{4}/;
+
+console.log(validarDataNasc.test('25/10/2002'));
+console.log(validarDataNasc.test('25/12/15'));
+console.log(validarDataNasc.test('2/2/2015'));
+console.log(validarDataNasc.test('30/02/1999'));
