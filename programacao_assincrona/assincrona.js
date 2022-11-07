@@ -10,8 +10,8 @@ console.log("3");
 console.log("4");
 
 //Promises
-let promessa = Promise.resolver(4 + 8);
+let promessa = Promise.resolve(4 + 8);
 
 console.log('Algum código');
 
-promessa.then((value) => console.log('Asoma é ${value} ))
+promessa.then((value) => console.log(`A soma é ${value}`));
