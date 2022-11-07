@@ -9,3 +9,14 @@ console.log(document.querySelector(".lista_exemplo"));
 console.log(document.querySelector("h1"));
 
 //Alterando o html
+let newElement = document.createElement("p");
+let texto = document.createTextNode("Algum texto");
+
+newElement.appendChild(texto);
+
+let elementAlvo = document.querySelector("#titulo-principal");
+let fatherElement = document.querySelector("#container-principal");
+
+fatherElement.insertBefore(newElement, elementAlvo);
+
+
