@@ -1,4 +1,4 @@
-console.log(document.getElementsByTagName("h1"));
+/*console.log(document.getElementsByTagName("h1"));
 
 console.log(document.getElementById("text "));
 
@@ -17,6 +17,16 @@ newElement.appendChild(texto);
 let elementAlvo = document.querySelector("#titulo-principal");
 let fatherElement = document.querySelector("#container-principal");
 
-fatherElement.insertBefore(newElement, elementAlvo);
+fatherElement.insertBefore(newElement, elementAlvo);*/
+
+let novoElemento = document.createElement("p");
+let texto = document.createTextNode("Algum texto");
+
+novoElemento.appendChild(texto);
+
+let p = document.querySelector("#text");
+let pai = p.parentNode;
+
+pai.appendChild(novoElemento);
 
 
