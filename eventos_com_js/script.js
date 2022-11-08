@@ -57,3 +57,56 @@ a.addEventListener("Click", function(e) {
     }
 });*/
 
+/*let btn1 = document.querySelector("#btn1");
+let btn2 = document.querySelector("#btn2");
+
+btn1.addEventListener("mousedown", function() {
+    console.log("Apertou o botão");
+});
+
+btn1.addEventListener("mouseup", function() {
+    console.log("Soltou o botão");
+});
+
+btn2.addEventListener("dblclick", function() {
+    console.log("Clicou duas vezes");
+});*/
+
+/*-----mousemove
+window.addEventListener("mousemove", function(e) {
+
+    console.log(e.x);
+    console.log(e.y);
+
+});*/
+
+
+//Evento por scroll 
+/*
+window.addEventListener("scroll", function(e) {
+
+    if(window.pageYOffset > 1000) {
+        console.log("Ativou");
+    }
+
+});*/
+
+//Evento de foco
+let input = document.querySelector("#input1");
+
+input.addEventListener("focus", function() {
+    console.log("Entrou no input");
+});
+
+input.addEventListener("blur", function() {
+    console.log("Saiu do input");
+});
+
+//Evento de carregamento
+window.addEventListener("load", function() {
+    alert("Aceite os nosso termos de uso");
+});
+
+window.addEventListener("beforeunload", function(e) {
+    event.returnValue = null;
+});
