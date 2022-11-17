@@ -12,6 +12,7 @@ function imprimirUmNumero(num){
 imprimirUmNumero(2);
 imprimirUmNumero(4);
 imprimirUmNumero(8);
+imprimirUmNumero(7);
 
 /*---------------------------------------------------------------------------------------*/
 
@@ -113,6 +114,7 @@ function somando (num1,num2) {
 };
 
 console.log(somando(10,10));
+
 
 
 
