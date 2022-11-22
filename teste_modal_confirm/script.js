@@ -3,11 +3,14 @@ const modal = document.querySelector("#modal1");
 const fade = document.querySelector("#fade1");
 
 
-const toggleModal = () => {
-    [modal1,fade1].forEach((el) => el.classList.toggle("hide"));
-};
+
+/*----------------------------------------------------------------------------------------------*/
+
+let msg = '';
 
 
+let send = document.getElementById("#open-modal1");
 
-
-
+send.addEventListener("click", () => {
+    console.log("Clicou!");
+});
