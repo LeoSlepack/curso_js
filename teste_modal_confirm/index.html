@@ -4,92 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arrays and objects</title> 
+    <title>teste modal</title> 
     <link rel="stylesheet" href="style.css">  
 </head>
 <body>
  
-
-
-    <div class="container-fluid" id="planos">
-        <div class="main-tittle-planos">
-            <h2 class="third-color textup">Nossos planos <span class="primary-color">disponíveis</span></h2>
-        </div>
-            <p>
-                <!--- <a id="mensal" href="#" class="btn btn-primary">Plano Anual</a> -->
-            </p>
-            <div class="container" id="packs">
-                <div class="row justify-content-around">
-                    <div class="col-12" id="pack1">
-                        <h4>Padrão</h4>
-                        <span class="textsmall">a partir de 12x<h4 class="prec">R$299,00</h4></span>
-                        <button onclick="openModalStarter()"class="btn btn-primary button-plans" type="button"> Assinar agora</button> <br>
-                        <p class="fourth-color">Ideal para consultores da LGPD conduzirem projetos em seus clientes, ou para uma empresa que já tem um DPO com conhecimento aprofundado na gestão do programa de privacidade.</p>
-                    </div>
-                    <div class="col-12" id="pack2">
-                        <h4 class="primary-color">Mentoria</h4>
-                        <span class="textsmall">a partir de 12x<h4 class="primary-color prec">R$967,00</h4></span>
-                        <button onclick="openModalInter()"class="btn btn-primary button-plans" type="button" >Assinar agora</button> <br>
-                        <p class="fourth-color">Ideal para quem já tem um time com jurídico + t.i mas quer ganhar tempo com os direcionamentos exatos e encurtar o tempo de aprendizado.</p>
-                    </div>
-                    <div class="col-12" id="pack3">
-                        <h4>Avançado</h4>
-                        <button onclick="openModalAdv()" class="btn btn-primary button-plans1" type="button" >Solicitar orçamento</button> <br>
-                        <p class="fourth-color">Ideal para empresas que querem uma adequação completa com um acompanhamento de dois especialistas, um do direito digital e outro da segurança da informação.</p>
-                    </div>
-                </div>
-            </div>
-    </div>
-    <button id="open-modal"></button>
-    <div id="fade" class="hide"></div>
-    <div id="modal" class="hide">
-        <div class="modal-header bg-dark-color secondary-color">
-            <h5>Entre em contato conosco</h5>
-            <button class="btn" id="close-modal">X</button>
-        </div>
-        <div class="modal-body">
-            <form id="formplan">
-                <div class="formnamemodal">
-                    <label for="name" class="form-label">Nome</label>
-                    <input type="text" name="name" id="name" class="form-control" placeholder="Insira seu nome." required >
-                </div>
-                <br>
-                <div class="formemailmodal">
-                    <label for="email" class="form-label">E-mail</label>
-                    <input type="email" name="email" id="email" class="form-control " placeholder="Insira seu e-mail." required>
-                </div>
-                <br>
-                <div class="formnummodal">
-                    <label for="phone_number">Digite seu contato com DDD</label>
-                    <input name="phone_number" id="phone_number" class="form-control" placeholder="Ex: 1191111111" required>
-                </div>
-                <br>
-                <div class="formnamemodalemp">
-                    <label for="company" class="form-label">Nome da Empresa</label>
-                    <input type="text" name="company" id="company" class="form-control" placeholder="Insira o nome da empresa." required>
-                </div>
-                <br>
-                <div>
-                    <input id="plan" class="form-control" readonly>
-                </div>
-                <br>
-                <div class="submitbtn ">
-                    <button id="submit" class="submit-modal" type="submit">Enviar</button>
-                </div>
-            </form>
-        </div>
-    </div>
-
-
-
     <!----------------------------------------------------------------------------------------------------->
 
     <button onclick="toggleModal()" id="open-modal1">Clique em mim</button>
     <div id="fade1" class="hide"></div>
     <div id="modal1" class="hide">
-        <div>
-            <button class="btn" id="close-modal1">X</button>
-        </div>
         <div class="modal-body">
             <p>ewgukfdhwevfhedkvhkdevcdvhsdvhsdhbshdcbjhsdbchjsdbchjbsdhcbshjcbsd</p>
         </div>
@@ -97,6 +21,6 @@
 
 
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
