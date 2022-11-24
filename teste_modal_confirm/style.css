@@ -1,4 +1,4 @@
-#planos {
+#contato {
     background-image: url(../imagens/linha.svg);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -7,238 +7,81 @@
     margin-top: 15px;
 }
 
-.main-tittle-planos h2 {
+#contato h2 {
     text-align: center;
     text-decoration: underline;
+    margin-bottom: 50px;
     padding-top: 30px;
-    padding-bottom: 20px;
 }
 
-#packs p {
-    text-align: left;
-}
-
-#planos p  a {
-    margin: 35px 10px 20px 0px;
-    text-align: center;
-    box-shadow: 0px 0px 5px gray;
-    font-weight: bold;
-}
-
-#packs {
-    margin-bottom: 80px;
-}
-
-#packs .col-12 {
-    height: 400px;
+#contato .col-12 {
+    height: 300px;
     padding: 1.5em;
-    width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 90px;
 
-    background-color: #fff;
     border-radius: 15px;
-    border: 0.5px solid rgba(224, 217, 217, 0.979);
 }
 
 @media(min-width:768px){
-    #packs .col-12 {
+    #contato .col-12 {
        max-width: 30%; 
     }
 
-    #planos .main-tittle-planos h2 {
-        text-align: center;
-        text-decoration: underline;
-        padding-top: 120px;
-        padding-bottom: 20px;
-    }
-
-    #planos .main-tittle-planos h2 {
-        margin-bottom: 90px;
-    }
-
-    #packs #pack2 {
-        height: 430px;
-        margin-top: -30px;
-    }
-
-    #planos #packs #pack1 {
-        margin-right: -150px;
-    }
-
-    #planos #packs #pack3 {
-        margin-left: -150px;
+    #contato #textcont h5 {
+        text-align: start;
+        font-size: 2.3em;
+        width: 250%;
+        margin-top: 200px;
+        margin-left: -200px;
     }
     
+}
+
+#textcont h5 {
+    text-align: start;
+    font-size: 2.3em;
+}
+
+#contato #formcont {
+    height: 795px;
+    border-top: 50px solid #3B66FF;
     
 }
 
-
-#pack1 h4 {
-    font-size: 2em;
-    color: #CE79DC;
+.cabecalho h5 {
+    margin-top: -62px;
     text-align: center;
-    font-weight: 600;
 }
 
-#pack1 .prec {
-    color: #3B66FF;
+#contato .form-check {
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
-#pack1 span {
-    text-align: center;
-    color: gray;
+.submitbtn {
+    text-align: end;
 }
 
-#pack1 p {
-    font-size: 1.1em;
-}
-
-
-#pack2 h4 {
-    font-size: 2em;
-    text-align: center;
-    font-weight: 600;
-}
-
-#pack2 span {
-    text-align: center;
-    color: gray;
-    margin-bottom: -10px;
-}
-
-#pack2 p {
+.submitbtn button {
+    background-color: #3B66FF;
+    border: 1px solid #3B66FF;
+    border-radius: 3px;
+    color: #fff;
     margin-bottom: 50px;
-    padding-bottom: 30px;
-    font-size: 1.1em;
+    padding: 5px 5px 5px 5px;
 }
 
-#pack3 h4 {
-    font-size: 2em;
-    color: #31D9A6;
-    text-align: center;
-    font-weight: 600;
-    margin-bottom: -50px;
-}
-
-#pack3 button {
-    margin-bottom: -160px; 
-    padding: 8px 8px 8px 8px;
-}
-
-#pack3 p {
-    font-size: 1.1em;
-}
-
-
-#pack1:hover {
-    border: 1px solid #00E0FF ;
-}
-
-#pack2:hover {
-    border: 1px solid #0921FF;
-}
-
-#pack3:hover {
-    border: 1px solid #FF00E5;
-}
-
-.modal-content {
-    background-color: #fff;
-}
-
-.button-plans {
-    width: 47%;
-    margin-left: 75px;
-}
-
-.button-plans1 {
-    width: 60%;
-    margin-left: 55px;
-}
-
-#fade, #modal {
-    transition: .5s;
-    opacity: 1;
-    pointer-events: all;
-}
-
-#fade {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:rgba( 0, 0, 0, 0.6);
-    z-index: 5;
-}
-
-#modal {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    z-index: 10;
-    width: 500px;
-    max-width: 90%;
-    padding: 1.2rem;
-    border-radius: .5rem;
-}
-
-.modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #3B66FF;
-    width: 108.5%;
-    margin-top: -20px;
-    margin-left: -20px;
-    padding: 20px 20px 10px 20px;
-    border-radius: 7px;
-}
-
-#modal.hide,
-#fade.hide {
-    opacity: 0;
-    pointer-events: none;
+.submitbtn button:hover {
+    text-decoration: underline;
 }
 
 
 
 
-
-/*----------------------------------------------------------------------------------*/
-
-
-#fade1 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:rgba( 0, 0, 0, 0.6);
-    z-index: 5;
-}
-
-#modal1 {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    z-index: 10;
-    width: 500px;
-    max-width: 90%;
-    padding: 1.2rem;
-    border-radius: .5rem;
-}
+/*------------------------------------------------------------------------------*/
 
 
-#modal1.hide,
-#fade1.hide {
-    opacity: 0;
-    pointer-events: none;
-}
+
