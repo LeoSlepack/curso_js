@@ -1,0 +1,89 @@
+#contato {
+    background-image: url(../imagens/linha.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#contato h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+#contato .col-12 {
+    height: 300px;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 90px;
+
+    border-radius: 15px;
+}
+
+@media(min-width:768px){
+    #contato .col-12 {
+       max-width: 30%; 
+    }
+
+    #contato #textcont h5 {
+        text-align: start;
+        font-size: 2.3em;
+        width: 250%;
+        margin-top: 200px;
+        margin-left: -200px;
+    }
+    
+}
+
+#textcont h5 {
+    text-align: start;
+    font-size: 2.3em;
+}
+
+#contato #formcont {
+    height: 795px;
+    border-top: 50px solid #3B66FF;
+    
+}
+
+.cabecalho h5 {
+    margin-top: -62px;
+    text-align: center;
+}
+
+#contato .form-check {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.submitbtn {
+    text-align: end;
+}
+
+.submitbtn button {
+    background-color: #3B66FF;
+    border: 1px solid #3B66FF;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 50px;
+    padding: 5px 5px 5px 5px;
+}
+
+.submitbtn button:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/*------------------------------------------------------------------------------*/
+
+.error-input {
+    border: 2px solid rgb(207, 53, 53) !important;
+}
+

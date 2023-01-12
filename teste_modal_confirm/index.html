@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCTO-LEGAL</title>
+    <!-- Fav Ícon----------------------------------------------------------------->
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap css ----------------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Bootstrap Ícons ----------------------------------------------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--Css da page-------------------------------------------------------------------->
+    <link rel="stylesheet" href="style.css">
+    <!-- Javascript bootstrap ------------------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container" id="contato">
+            <div class="col-12 bg-secondary-color" id="formcont">
+                <div class="cabecalho bg-dark-color">
+                    <h5>
+                        Fale com nossos especialistas
+                    </h5> 
+                </div>
+                <form  action="#" method="post" id="form">
+                    <div class="formname">
+                        <label for="name0" class="form-label">Nome</label>
+                        <input type="text" name="name0" id="name0" class="form-control" placeholder="Insira seu nome">
+                    </div>
+                    <br>
+                    <div class="formemail">
+                        <label for="email0" class="form-label">E-mail</label>
+                        <input type="email" name="email0" id="email0" class="form-control" placeholder="Insira seu e-mail.">
+                    </div>
+                    <br>
+                    <div class="formnum">
+                        <label for="phone_number0">Digite seu contato com DDD</label>
+                        <input name="phone_number0" id="phone_number0" class="form-control" placeholder="Ex: 1191111111">
+                    </div>
+                    <br>
+                    <div class="textform">
+                        <label for="mesage0" class="form-label">Mensagem</label>
+                        <textarea name="mesage0" id="mesage0" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input checkbox" id="checkbox" name="topics">
+                        <label for="privacidade" class="form-check-label textsmall">Eu concordo em receber comunicações. Ao informar meus dados, estou ciente das diretrizes do Aviso de Privacidade.</label>
+                    </div>
+                    <div class="submitbtn ">
+                        <button id="submit-form-contact" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+    </div>
+
+</body>
+</html>
